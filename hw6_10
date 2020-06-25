@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+import csv
+#Data = open(‘’’absolute path to file’’’)
+#x = csv.read(Data)#this  will make an array of values
+Data = open("/Users/janec/Downloads/dataY.csv")
+y = csv.read(Data)#this  will make an array of values
+delta=0.006283185307179587
+plt.plot([x,y])
+plt.show()
+sumy=0
+for i in y:
+    sumy = sumy + abs(i)
+
+area = delta * sumy
