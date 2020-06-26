@@ -72,7 +72,7 @@ if __name__ == "__main__":
     # create Buttons
     button1 = Button(gui, text=' 1 ', fg='black', bg='light blue', 
                      command=lambda: press(1), height=1, width=10) 
-    button1.grid(row=2, column=0) sdfassasf
+    button1.grid(row=2, column=0)
   
     button2 = Button(gui, text=' 2 ', fg='black', bg='light blue', 
                      command=lambda: press(2), height=1, width=10) 
